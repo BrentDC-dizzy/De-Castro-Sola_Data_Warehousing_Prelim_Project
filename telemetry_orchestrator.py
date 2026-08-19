@@ -44,7 +44,10 @@ def initialize_directories():
 def hash_pii(text):
     if pd.isna(text):
         return text
-    return hashlib.sha256(str(text).encode('utf-8')).hexdigest()
+    
+    # Standardize string before hashing, as claimed by the DataOps Report
+    standardized_text = str(text).strip().lower()
+    return hashlib.sha256(standardized_text.encode('utf-8')).hexdigest()
 
 def execute_pipeline():
     logger.info("Starting pipeline extraction.")
