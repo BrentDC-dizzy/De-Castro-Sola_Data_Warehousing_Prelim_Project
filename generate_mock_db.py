@@ -27,7 +27,7 @@ def generate_db():
     last_names = ["Smith", "Doe", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller"]
     departments = ["cardiology", "oncology", "neurology", "pediatrics", "emergency"]
     
-    start_date = datetime.datetime(2025, 1, 1)
+    start_date = datetime.datetime(2026, 1, 1)
     
     rows = []
     

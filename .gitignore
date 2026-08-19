@@ -20,6 +20,3 @@ Thumbs.db
 
 # Generated pipeline artifacts
 shop_oltp_p1.db
-data/
-logs/
-quarantine/
