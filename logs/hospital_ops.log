@@ -1,0 +1,10 @@
+2026-08-19 15:07:30,282 - TelemetryOrchestrator - INFO - Initializing run. Clearing previous artifacts for idempotency.
+2026-08-19 15:07:30,285 - TelemetryOrchestrator - INFO - Directories prepared successfully.
+2026-08-19 15:07:30,285 - TelemetryOrchestrator - INFO - Starting pipeline extraction.
+2026-08-19 15:07:30,297 - TelemetryOrchestrator - INFO - Extracted 4000 rows from C:\Users\Brent\Desktop\DataWarehousing-Prelim\DeCastro-Sola_prelim_project\shop_oltp_p1.db.
+2026-08-19 15:07:30,297 - TelemetryOrchestrator - INFO - Validating and quarantining anomalous records.
+2026-08-19 15:07:30,304 - TelemetryOrchestrator - INFO - Archived 259 corrupted rows to C:\Users\Brent\Desktop\DataWarehousing-Prelim\DeCastro-Sola_prelim_project\quarantine\failed_vitals.csv.
+2026-08-19 15:07:30,304 - TelemetryOrchestrator - INFO - Standardizing text fields and hashing PII.
+2026-08-19 15:07:30,314 - TelemetryOrchestrator - INFO - Extracting year partition key from order_date.
+2026-08-19 15:07:30,318 - TelemetryOrchestrator - INFO - Serializing to Hive-style partitioned Apache Parquet.
+2026-08-19 15:07:30,343 - TelemetryOrchestrator - INFO - Successfully wrote 3741 clean records to C:\Users\Brent\Desktop\DataWarehousing-Prelim\DeCastro-Sola_prelim_project\data\lakehouse.
